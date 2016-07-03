@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/public/storage
+composer.phar
+Homestead.yaml
+Homestead.json
+.env
+/_ide_helper.php
+/.phpstorm.meta.php
+/_ide_helper_models.php

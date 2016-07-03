@@ -1,0 +1,22 @@
+{
+  "name": "rinvex/larapulse",
+  "description": "The State Of Laravel",
+  "keywords": [
+    "week",
+    "rinvex",
+    "laravel",
+    "changelog",
+    "larapulse"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdelrahman Omran",
+      "email": "me@omranic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "vlucas/phpdotenv": "^2.3"
+  }
+}
