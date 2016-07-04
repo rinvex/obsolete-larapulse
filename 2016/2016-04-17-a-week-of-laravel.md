@@ -1,11 +1,8 @@
----
-view::extends: _includes.blog_post_base
-view::yields: post_body
-pageTitle: - A week of Laravel (10-17 April 2016)
-post::title: A week of Laravel (10-17 April 2016)
-post::brief: "Updates: laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [5.1], laravel/installer [master], laravel/docs [5.2], laravel/homestead [master], laravel/lumen [master], laravel/lumen-installer [master], laravel/laravel.com [master], laravel/settler [master], laravel/socialite [2.0], laravel/envoy [master], Podcasts: The Laravel Podcast, The Laracasts Snippet, Laracasts"
-post::date: April 17, 2016
----
+# A week of Laravel #2 (10-17 April 2016)
+
+> **Updates:** laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [5.1], laravel/installer [master], laravel/docs [5.2], laravel/homestead [master], laravel/lumen [master], laravel/lumen-installer [master], laravel/laravel.com [master], laravel/settler [master], laravel/socialite [2.0], laravel/envoy [master], Podcasts: The Laravel Podcast, The Laracasts Snippet, Laracasts
+
+> **Published:** April 17, 2016
 
 ## [laravel/framework](https://github.com/laravel/framework)
 

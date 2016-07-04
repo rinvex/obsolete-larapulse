@@ -1,11 +1,8 @@
----
-view::extends: _includes.blog_post_base
-view::yields: post_body
-pageTitle: - A week of Laravel (03-10 April 2016)
-post::title: A week of Laravel (03-10 April 2016)
-post::brief: "Updates: laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [master], laravel/laravel [5.1], laravel/installer [master], laravel/docs [master], laravel/docs [5.2], laravel/docs [5.1], laravel/lumen-framework [5.2], laravel/lumen [master], laravel/cashier-braintree [1.0], laravel/elixir [master], Podcasts: The Laracasts Snippet, Laravel News Podcast, Laracasts"
-post::date: April 10, 2016
----
+# A week of Laravel #1 (03-10 April 2016)
+
+> **Updates:** laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [master], laravel/laravel [5.1], laravel/installer [master], laravel/docs [master], laravel/docs [5.2], laravel/docs [5.1], laravel/lumen-framework [5.2], laravel/lumen [master], laravel/cashier-braintree [1.0], laravel/elixir [master], Podcasts: The Laracasts Snippet, Laravel News Podcast, Laracasts
+
+> **Published:** April 10, 2016
 
 ## [laravel/framework](https://github.com/laravel/framework)
 

@@ -1,11 +1,8 @@
----
-view::extends: _includes.blog_post_base
-view::yields: post_body
-pageTitle: - A week of Laravel (24 April-01 May 2016)
-post::title: A week of Laravel (24 April-01 May 2016)
-post::brief: "Updates: laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [master], laravel/laravel [develop], laravel/docs [5.2], laravel/homestead [master], laravel/lumen-framework [master], laravel/lumen-framework [5.2], laravel/lumen [master], laravel/laravel.com [master], laravel/quickstart-basic [master], laravel/settler [master], laravel/socialite [2.0], laravel/elixir [master], laravel/envoy [master], Laracasts"
-post::date: May 01, 2016
----
+# A week of Laravel #4 (24 April-01 May 2016)
+
+> **Updates:** laravel/framework [master], laravel/framework [5.2], laravel/framework [5.1], laravel/laravel [master], laravel/laravel [develop], laravel/docs [5.2], laravel/homestead [master], laravel/lumen-framework [master], laravel/lumen-framework [5.2], laravel/lumen [master], laravel/laravel.com [master], laravel/quickstart-basic [master], laravel/settler [master], laravel/socialite [2.0], laravel/elixir [master], laravel/envoy [master], Laracasts
+
+> **Published:** May 01, 2016
 
 ## [laravel/framework](https://github.com/laravel/framework)
 
