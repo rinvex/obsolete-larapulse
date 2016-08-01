@@ -1,4 +1,4 @@
-# A week of Laravel #17 (25 July-01 August 2016)
+# A week of Laravel #16 (25 July-01 August 2016)
 
 > **Updates:** "Updates: laravel/framework [master, 5.2, 5.1], laravel/laravel [master, develop], laravel/docs [master, 5.2], laravel/homestead [master], laravel/lumen-framework [5.2], laravel/laravel.com [master], laravel/valet [master], Podcasts: The Laracasts Snippet, Laravel News Podcast, Laracasts, Larajobs"
 
@@ -116,7 +116,8 @@ ___
 
 ### [master](https://github.com/laravel/valet/compare/master@{2016-07-25}...master@{2016-08-01})
 - [77cd98f](https://github.com/laravel/valet/commit/77cd98f4ccf868e2a4a870bb09e26695f468f574): Add basic changes to alllow php71 [@drbyte](https://github.com/drbyte) 
-- [58e3c07](https://github.com/laravel/valet/commit/58e3c07fe3a8979dc0435ee874feab63a57cf23f): Drupal 7 & 8 Driver (#48)* Add support for Drupal [@Cybnext](https://github.com/Cybnext) 
+- [58e3c07](https://github.com/laravel/valet/commit/58e3c07fe3a8979dc0435ee874feab63a57cf23f): Drupal 7 & 8 Driver (#48)* Add support for Drupal
+ [@Cybnext](https://github.com/Cybnext) 
 
 
 ___
