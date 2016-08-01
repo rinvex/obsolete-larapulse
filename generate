@@ -4,8 +4,9 @@ set_time_limit(0);
 
 
 // How many previous reports
-$count  = 0;
-$years  = range(2016, date('Y'));
+$count = 0;
+$since = 'last Monday';
+$years = range(2016, date('Y'));
 
 foreach ($years as $year) {
     if (! file_exists($year)) {
@@ -70,18 +71,18 @@ $excluded = [
 
 // Settings
 $today          = date('Y-m-d');
-$lastweek       = date('Y-m-d', strtotime('last Sunday'));
+$lastweek       = date('Y-m-d', strtotime($since));
 $thisMonth      = date('F');
-$maybeLastMonth = date('F', strtotime('last Sunday'));
+$maybeLastMonth = date('F', strtotime($since));
 $published      = date('F d, Y');
 $titleLimit     = 50;
 
 
 // Report title date
 if ($thisMonth == $maybeLastMonth) {
-    $titleDate = date('d', strtotime('last Sunday')).'-'.date('d').' '.date('F').' '.date('Y');
+    $titleDate = date('d', strtotime($since)).'-'.date('d').' '.date('F').' '.date('Y');
 } else {
-    $titleDate = date('d', strtotime('last Sunday')).' '.date('F', strtotime('last Sunday')).'-'.date('d').' '.date('F').' '.date('Y');
+    $titleDate = date('d', strtotime($since)).' '.date('F', strtotime($since)).'-'.date('d').' '.date('F').' '.date('Y');
 }
 
 
@@ -186,7 +187,7 @@ foreach ($podcasts as $podcast) {
     $xml         = new SimpleXMLElement($simple);
 
     foreach ($xml->channel->item as $item) {
-        if (strtotime($item->pubDate) > strtotime('last Sunday')) {
+        if (strtotime($item->pubDate) > strtotime($since)) {
             $flag = true;
             $podcastText .= "- [{$item->title}]({$item->link})\n";
         }
@@ -209,7 +210,7 @@ $laracastsText = '';
 $laracasts     = new SimpleXMLElement(file_get_contents('https://laracasts.com/feed'));
 
 foreach ($laracasts->entry as $item) {
-    if (strtotime($item->updated) > strtotime('last Sunday')) {
+    if (strtotime($item->updated) > strtotime($since)) {
         $laracastsText .= "- [{$item->title}]({$item->link['href']})\n";
     }
 }
@@ -224,7 +225,7 @@ $larajobsText = '';
 $larajobs     = new SimpleXMLElement(file_get_contents('https://larajobs.com/feed'));
 
 foreach ($larajobs->channel->item as $item) {
-    if (strtotime($item->pubDate) > strtotime('last Sunday')) {
+    if (strtotime($item->pubDate) > strtotime($since)) {
         $larajobsText .= "- [{$item->title}]({$item->link})\n";
     }
 }
