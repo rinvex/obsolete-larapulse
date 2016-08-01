@@ -2,7 +2,7 @@
 
 Larapulse is a convenient way to summarize Laravel changelog across all projects (Laravel, Lumen, Homestead, ..etc) released weekly -a week in a list-.
 
-## [A week of Laravel #16 (25 July-01 August 2016)](2016-08-01-a-week-of-laravel.md)
+## [A week of Laravel #16 (25 July-01 August 2016)](2016/2016-08-01-a-week-of-laravel.md)
 
 - [A week of Laravel #15 (17-24 July 2016)](2016/2016-07-24-a-week-of-laravel.md)
 - [A week of Laravel #14 (10-17 July 2016)](2016/2016-07-17-a-week-of-laravel.md)
